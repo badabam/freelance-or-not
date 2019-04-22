@@ -1,5 +1,11 @@
-# mdx-deck basic template
+# freelance or not
 
+A talk for the [social developers club](http://socialdevelopersclub.de/)
+meetup at [neuefische](https://neuefische.de)
+on Tuesday, 23/04/2019
+
+
+## Thanks to mdx-deck
 This was generated with [mdx-deck][]'s `npm init deck` command.
 
 ## Development

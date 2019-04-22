@@ -1,6 +1,10 @@
 {
   "private": true,
   "name": "freelance-or-not",
+  "author": {
+    "name": "Jeremias Erbs",
+    "email": "jerry@badabam.de"
+  },
   "version": "1.0.0",
   "scripts": {
     "start": "mdx-deck deck.mdx",
