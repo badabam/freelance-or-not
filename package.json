@@ -16,5 +16,15 @@
   },
   "dependencies": {
     "styled-components": "4.2.0"
-  }
+  },
+  "description": "A talk for the [social developers club](http://socialdevelopersclub.de/) meetup at [neuefische](https://neuefische.de) on Tuesday, 23/04/2019",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badabam/freelance-or-not.git"
+  },
+  "bugs": {
+    "url": "https://github.com/badabam/freelance-or-not/issues"
+  },
+  "homepage": "https://github.com/badabam/freelance-or-not#readme"
 }
