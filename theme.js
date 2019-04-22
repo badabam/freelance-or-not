@@ -1,7 +1,36 @@
+import styled from 'styled-components'
+
+export const TagList = styled('ul')`
+  list-style: none;
+  line-height: 1;
+
+  li {
+    display: inline-block;
+    background: black;
+    color: white;
+    margin: 12px;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+`
+
+export const Heading = styled.h1`
+  color: hotpink;
+`
+
+export const Cross = styled.span`
+  color: crimson;
+  &:after {
+    content: "${props => props.text || '✗'}";
+  }
+`
+
 export const theme = {
-  // Customize your presentation theme here.
-  //
-  // Read the docs for more info:
-  // https://github.com/jxnblk/mdx-deck/blob/master/docs/theming.md
-  // https://github.com/jxnblk/mdx-deck/blob/master/docs/themes.md
+  color: '#333',
+  h2: {
+    fontWeight: 300,
+  },
+  h3: {
+    fontWeight: 300,
+  },
 }
