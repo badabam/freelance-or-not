@@ -26,7 +26,6 @@ export const Cross = styled.span`
 `
 
 export const theme = {
-  color: '#333',
   h2: {
     fontWeight: 300,
   },
