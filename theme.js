@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const TagList = styled('ul')`
   list-style: none;
   line-height: 1;
+  font-size: 44px;
 
   li {
     display: inline-block;
