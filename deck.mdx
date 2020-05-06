@@ -1,10 +1,14 @@
 import { Head, Notes } from 'mdx-deck'
-import { yellow } from 'mdx-deck/themes'
-import { theme as custom } from './theme'
-import { TagList, Heading, Cross } from './theme'
+import { themes } from 'mdx-deck'
+import custom from './custom'
+import { TagList, Heading, Cross } from './custom'
 import './global.css'
 
-export const theme = Object.assign({}, yellow, custom)
+export const theme = {
+  ...themes.yellow,
+  ...custom,
+  styles: { ...themes.yellow.styles, ...custom.styles },
+}
 
 # Freelance or not?
 
@@ -56,7 +60,7 @@ Who's talking?
 
 ---
 
-### Overview: criteria
+## Overview: criteria
 
 <TagList>
   <li>city</li>
