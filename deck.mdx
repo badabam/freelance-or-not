@@ -1,10 +1,10 @@
 import { Head, Notes } from 'mdx-deck'
 import { yellow } from 'mdx-deck/themes'
-import { theme } from './theme'
+import { theme as custom } from './theme'
 import { TagList, Heading, Cross } from './theme'
 import './global.css'
 
-export const themes = [yellow, theme]
+export const theme = Object.assign({}, yellow, custom)
 
 # Freelance or not?
 

@@ -1,5 +1,15 @@
 import styled from 'styled-components'
 
+export default {
+  components: {
+    TagList,
+    Heading,
+    Cross
+  },
+  styles: theme
+}
+
+
 export const TagList = styled('ul')`
   list-style: none;
   line-height: 1;
