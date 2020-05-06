@@ -42,6 +42,10 @@ export default {
     inlineCode: {
       background: 'black',
       color: '#fd0',
+      padding: '6px 2px',
+    },
+    p: {
+      margin: '10px',
     },
   },
 }
